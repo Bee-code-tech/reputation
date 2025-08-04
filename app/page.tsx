@@ -88,7 +88,7 @@ const ReputationTeaser: React.FC = () => {
   const cryptoSymbols = ['₿', 'Ξ', '◎', '💎', '🚀', '📈', '⚡', '🔥'];
 
   return (
-    <div className="h-screen w-full bg-gradient-to-br from-slate-800 via-gray-900 to-black relative overflow-hidden">
+    <div className="h-screen w-full bg-gradient-to-br from-slate-800 via-gray-900 to-black relative ">
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-full blur-3xl opacity-60 animate-pulse"></div>
